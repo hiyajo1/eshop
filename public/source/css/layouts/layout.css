@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.buttons{
+	border-radius: 10px;
+	padding: 5px;
+	margin: 10px;
+	background: rgba(204, 255, 204, 0.8);
+
+}
+.headline,.line{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+}
+.line{
+	font-size: 22px;
+	line-height: 100%;
+	letter-spacing: 0.15em;
+}
+.headline {
+	text-transform: uppercase;
+	color: rgba(0, 0, 0, 0.65);
+	font-size: 24px;
+	line-height: 200%;
+	letter-spacing: 0.25em;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	justify-content: space-between;
+}
+.searchbar,.tags{
+	min-width: 600px;
+}
+.header {
+	display: flex;
+	align-items: stretch;
+	flex-direction: column;
+}
+a{
+	text-decoration: none;
+}
+.usefullHeader{
+	display: flex;
+	flex-direction: row;
+}
+.basket{
+	margin: 0 10px 0 10px;
+}
+.searchbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 16px 200px;
+
+	background: rgba(204, 255, 204, 0.8);
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.searchline {
+	display: flex;
+	border-bottom: 1px solid black;
+}
+
+form {
+	display: flex;
+	align-items: center;
+}
+
+input {
+	margin: 0px;
+	padding: 0px;
+	height: 24px;
+
+	outline: none;
+	border: none;
+
+	background: rgba(204, 255, 204, 0);
+}
+
+.searchLogo {
+	width: 24px;
+	height: 24px;
+	background-size: cover;
+}
+
+.tags {
+	padding: 16px 200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px dashed rgba(0, 0, 0, 0.65);
+}
+
+div .menu-container{
+	padding: 10px 15px 10px 15px;
+	margin: 5px;
+}
+.menu-dropdown-icon{
+	font-size: 18px;
+}
+
+
+.content {
+	padding: 50px 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.footer {
+	padding: 10px 200px;
+	height: 100px;
+	background: #A3BFA3;
+	display: flex;
+}

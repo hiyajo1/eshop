@@ -1,0 +1,53 @@
+.home-content {
+	display: flex;
+	flex-wrap: wrap;
+}
+.home-content div {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	border: 1px black solid;
+	margin: 10px;
+	color: black;
+	text-decoration: none;
+}
+.home-content div a {
+	display: flex;
+	width: 100px;
+	height: 100px;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	text-decoration: none;
+}
+.item-back-list:after {
+	min-height: 100px;
+	min-width: 100px;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 10px;
+	background-image: url(https://static.thenounproject.com/png/671961-200.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 7%;
+}
+.item-back-form:after {
+	min-height: 100px;
+	min-width: 100px;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 10px;
+	background-image: url(https://cdn.iconscout.com/icon/free/png-256/form-2029103-1713283.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	opacity: 7%;
+}

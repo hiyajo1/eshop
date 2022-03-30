@@ -1,0 +1,5 @@
+ALTER TABLE `eshop`.`up_order` ADD
+    FOREIGN KEY `FK_ORDER_ITEM` (`ITEM_ID`)
+        REFERENCES up_item(`ID`)
+        ON UPDATE RESTRICT
+        ON DELETE RESTRICT;

@@ -1,0 +1,127 @@
+.mainPartContent{
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+	flex: 5;
+}
+.itemCardList {
+	display: inline-flex;
+	flex-wrap: wrap;
+}
+.itemCard {
+	position: relative;
+	min-height: 400px;
+	width: 250px;
+	border-radius: 0px;
+	background: #CCFFCC;
+	margin: 10px;
+
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.itemOverlay {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	opacity: 0;
+	transition: .3s;
+	z-index: 2;
+}
+
+.itemCard:hover .itemOverlay {
+	opacity: 1;
+}
+
+.detailsButton {
+	display: block;
+	width: 200px;
+	height: 56px;
+
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 56px;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	background: #CCFFCC;
+}
+.itemCardPoster{
+	height: 170px;
+	width: 200px;
+
+}
+.itemCardTitle, .itemCardAuthor, .itemCardPrice {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 300;
+	letter-spacing: 0.15em;
+	padding: 5px;
+}
+.itemCardAuthor{
+	color: rgba(0, 0, 0, 0.65);
+}
+.itemCardTitle{
+	border-bottom: 1px solid rgba(0, 0, 0, 0.65);
+}
+
+.itemsFilter{
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	flex: 1;
+}
+.itemsFilterBlock{
+	margin: 10px;
+}
+.itemsFilterLine{
+
+}
+.itemsFilterHeadline{
+	line-height: 150%;
+}
+.itemsFilterLine{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	margin: 10px;
+}
+.itemsFilterInput{
+	margin: 5px;
+	width: 15px;
+}
+.itemsFilterInputLabel{
+	margin: 6px;
+	max-width: 75%;
+	font-size: 16px;
+}
+
+.pageListingButtons {
+	display: flex;
+}
+
+.pageListingButton {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	line-height: 50px;
+	margin: 10px;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+}
+
+.pageListingButtonArrow {
+
+}
+
+.pageListingButtonNumber {
+	background: rgba(204, 255, 204, 0.8);
+}

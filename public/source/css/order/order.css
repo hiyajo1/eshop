@@ -1,0 +1,62 @@
+.modalOrder{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.orderCard{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.orderTableDataCell{
+	padding: 10px;
+	text-align: center;
+	border: 1px solid #938d8d;
+}
+.orderCardPoster{
+	width: 50px;
+	height: 50px;
+	background: pink;
+}
+.orderCardInfo{
+	display: flex;
+	flex-direction: row;
+	margin:10px;
+}
+.orderCardTitle{
+	margin: 15px;
+}
+.orderCardPrice{
+	margin: 15px;
+}
+.orderCardForm{
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	min-width: 500px;
+}
+.orderCardFormHeadline{
+	font-size: 28px;
+	line-height: 150%;
+	letter-spacing: 0;
+}
+.orderFormLabel{
+	 margin: 0px;
+	 line-height: 100%;
+	 font-size: 22px;
+	 letter-spacing: 0.15em;
+ }
+.orderCardInput{
+	border: 2px solid #938d8d;
+	margin: 5px;
+	height: 1.5em;
+	font-size: 18px;
+	width: 300px;
+}
+.orderFormTextarea{
+	max-width: 300px;
+	min-width: 300px;
+	line-height: 150%;
+	height: 75px;
+}

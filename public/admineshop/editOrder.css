@@ -1,0 +1,10 @@
+.order-num {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.edit-order {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}

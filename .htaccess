@@ -1,0 +1,13 @@
+Options All -ExecCGI -Indexes -Includes +FollowSymLinks
+
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteRule (.*) public/$1
+</IfModule>
+
+<IfModule mod_setenvif.c>
+	SetEnv TZ Europe/Kaliningrad
+</IfModule>
+
+ServerSignature Off
+AddDefaultCharset UTF-8
